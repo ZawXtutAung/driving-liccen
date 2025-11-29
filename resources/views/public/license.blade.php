@@ -41,7 +41,7 @@
             background-size: 115px;
             background-repeat: repeat;
             background-position: center;
-            opacity: 0.9;
+            opacity: 0;
             pointer-events: none;
             z-index: 0;
         }
@@ -55,10 +55,10 @@
                 right: 0;
                 bottom: 0;
                 background: url('/images/knn_bg.png');
-                background-size: 74px;
+                background-size: 68px;
                 background-repeat: repeat;
                 background-position: center;
-                opacity: 0.9;
+                opacity: 0;
                 pointer-events: none;
                 z-index: 0;
             }
@@ -203,19 +203,21 @@
 
         @media screen and (max-width: 600px) {
             body {
-                padding: 2px;
+                padding: 10px 15px;
+                box-sizing: border-box;
             }
 
             .license-container {
                 width: 100%;
                 max-width: 100%;
-                margin: 0 auto;
-                background-size: 74px;
+                margin: 0;
+                background-size: 68px;
                 border: 2px solid #e1ff94;
+                box-sizing: border-box;
             }
 
             .header-section {
-                padding: 15px 10px;
+                padding: 15px;
             }
 
             .logo-img {
